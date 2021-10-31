@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   height:90vh;
+  background:url('../../public/consultbg.jpg');
+  background-size: contain;
 }
 h2::selection,
 label::selection,

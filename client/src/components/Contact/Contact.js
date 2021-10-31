@@ -13,7 +13,11 @@ const Contact = () => {
             Message:message
         }
         axios.post('http://localhost:5000/contact',data)
-        .then(resp=> console.log(resp))
+        .then(resp=>{ console.log(resp);
+            setName('');
+            setemail('');
+            setmessage('');
+        })
         .catch(err=>console.log(err))
         console.log(Name,email,message);
     }

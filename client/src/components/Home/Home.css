@@ -1,6 +1,10 @@
-.HomeWrapper{
-    border:2px solid black;
+.imageCover{
+    background: url('../../public/homebg.jpg');
+    background-size: cover;
     height:90vh;
+}
+.HomeWrapper{
+    height:55vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -11,6 +15,7 @@
     padding:20px 0;
     margin: 0 20px;
     border-radius: 10px;
+    background-color: rgba(246, 246, 246, 0.26);
 }
 .infoWrapper h3{
     text-align: center;

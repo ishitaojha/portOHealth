@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css';
 const About = () => {
     return (
+        <div className="imageCover">
         <div className="HomeWrapper">
             <h2 className="aboutHeader" id="Home">Chronic Diseases</h2>
             <div className="infoWrapper">
@@ -12,6 +13,7 @@ const About = () => {
                 <h3>The Disease in Talk - AIDS</h3>
                 <p>It is widely believed that HIV originated in Kinshasa, in the Democratic Republic of Congo around 1920 when HIV crossed species from chimpanzees to humans. Up until the 1980s, we do not know how many people were infected with HIV or developed AIDS. HIV was unknown and transmission was not accompanied by noticeable signs or symptoms.</p>
             </div>
+        </div>
         </div>
     )
 }
